@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+    text-align: center;
+}
+
+button {
+    padding: 12px;
+    width: 100%;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
